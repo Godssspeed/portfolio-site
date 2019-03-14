@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  height: 6vh;
+  width: 100%;
+  background: transparent;
+  padding: 1rem 0 0 0;
+
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  font-family: "Overpass Mono", monospace;
+  font-size: 1.2rem;
+}
+
+.logo {
+  padding-left: 2rem;
+}
+
+.links ul {
+  width: 20vw;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.links li {
+  list-style-type: none;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.logo h1:hover,
+.link:hover {
+  color: rgb(144, 176, 97);
+}

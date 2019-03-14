@@ -1,0 +1,42 @@
+/* $black = #1b1b1c || rgb(27, 27, 28) */
+/* #29292b ||rgb(41, 41, 43) */
+/* #434344 rgb(67, 67, 68) */
+/* #5f5f60 rgb(95, 95, 96) */
+/* #6d6d6d rgb(109, 109, 109) */
+/* #969696 rgb(150, 150, 150) */
+/* #c1c1c1 rgb(193, 193, 193) */
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://s3.us-east-2.amazonaws.com/wy-portfolio-bucket/admin/jasper-van-der-meij-104066-unsplash.jpg");
+  background-size: cover;
+  /* background-position-y: 90%; */
+  background-position-x: 9000%;
+  background-repeat: no-repeat;
+}
+
+h1,
+p {
+  color: white;
+}
+
+.quick-links {
+  padding-top: 20vh;
+}
+
+.quick-links img {
+  padding-left: 3rem;
+}
+
+.type-wrap {
+  padding-top: 30vh;
+  color: white;
+  font-size: 4rem;
+}

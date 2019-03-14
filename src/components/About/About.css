@@ -1,0 +1,185 @@
+.about-main {
+  background: rgb(29, 38, 47);
+  width: 100%;
+  height: 100vh;
+  padding-top: 6vh;
+}
+
+.about-overlay {
+  height: 100%;
+  width: 100%;
+  mask: rgba(0, 0, 0, 0.7);
+}
+
+#myVideo {
+  position: fixed;
+  left: 0;
+  top: 10%;
+  max-width: 50%;
+  height: 535.22px;
+  object-fit: cover;
+  /* z-index: 1000; */
+}
+
+#myImg {
+  position: fixed;
+  right: 0;
+  top: 10%;
+  width: 50%;
+  height: 535.22px;
+  object-fit: cover;
+}
+
+.about-overlay {
+  position: fixed;
+  top: 10%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #f1f1f1;
+  width: 100%;
+  height: 535.22px;
+  /* padding: 20px; */
+}
+
+.content {
+  position: fixed;
+  top: 22%;
+
+  background: transparent;
+  color: rgb(228, 77, 38);
+  width: 100%;
+  font-family: "Overpass Mono", monospace;
+  font-size: 2rem;
+}
+
+.name-section {
+  background: rgba(0, 0, 0, 0.4);
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 5px;
+  color: rgb(0, 149, 182);
+}
+.name-section h2 {
+  color: rgb(190, 138, 89);
+  padding-right: 1rem;
+}
+
+.name-section p {
+  color: rgb(144, 176, 97);
+}
+
+.const {
+  color: rgb(193, 152, 193);
+  padding-right: 1rem;
+}
+
+.name-section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name-section img {
+  height: 60px;
+}
+
+.content p {
+  /* color: rgb(228, 77, 38); */
+}
+
+.content > img {
+  height: 250px;
+  border: 10px solid rgb(228, 77, 38);
+  border-radius: 50%;
+}
+
+.name-section {
+  padding-top: 1rem;
+}
+
+.vid-btn {
+  position: fixed;
+  left: -48.5%;
+  top: 10.5%;
+  background: transparent;
+  color: #f1f1f1;
+  width: 100%;
+  font-family: "Overpass Mono", monospace;
+  font-size: 2rem;
+}
+
+.bio-section {
+  font-size: 3rem;
+  padding-top: 1rem;
+  top: 70%;
+  width: 100%;
+  height: 89vh;
+  background: rgb(29, 38, 47);
+  position: absolute;
+  z-index: 100000000000;
+  color: lightgray;
+}
+
+.bio-section h1 {
+  color: rgb(228, 77, 38);
+}
+
+.bio-section p {
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.bio-paragraph {
+  width: 60vw;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.bio-paragraph p {
+}
+
+.skills-section {
+  margin-top: 10rem;
+  padding-top: 1.5rem;
+  height: 52vh;
+  background: rgb(27, 27, 28);
+}
+
+/* console.log style */
+.skills-section {
+  color: lightgray;
+}
+.console {
+  color: rgb(190, 138, 89);
+}
+
+.log {
+  color: rgb(0, 132, 212);
+}
+
+.parenthesis {
+  color: rgb(97, 218, 251);
+}
+
+.logged-text {
+  color: rgb(193, 98, 102);
+}
+.react-logo {
+  height: 5rem;
+  color: blue;
+
+  fill: rgb(97, 218, 251);
+}
+
+.html5-logo {
+  height: 5rem;
+}
+
+.skills {
+  height: 80%;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 auto;
+}
