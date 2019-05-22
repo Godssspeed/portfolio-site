@@ -4,9 +4,18 @@ import "./Nav.css";
 
 export class Navbar extends Component {
   render() {
+    console.log(window);
     return (
       <div className="navbar">
-        <div className="logo">
+        <div
+          className={
+            window.location.pathname === "/"
+              ? "logo logo-dashboard"
+              : window.location.pathname === "/about"
+              ? "logo logo-about"
+              : null
+          }
+        >
           <NavLink to="/" className="link">
             <h1>WillYoungWeb.Dev</h1>
           </NavLink>

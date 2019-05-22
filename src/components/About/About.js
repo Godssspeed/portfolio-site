@@ -38,7 +38,7 @@ export class About extends Component {
   render() {
     // console.log(skills);
     const video =
-      "https://s3.us-east-2.amazonaws.com/wy-portfolio-bucket/admin/20181224_084959000_iOS.mp4";
+      "https://s3.us-east-2.amazonaws.com/wy-portfolio-bucket/admin/video-1552615706.mp4";
     const img =
       "https://s3.us-east-2.amazonaws.com/wy-portfolio-bucket/admin/clement-h-544786-unsplash.jpg";
     const headshot =
@@ -78,13 +78,13 @@ export class About extends Component {
           </div>
         </div>
 
-        <div
+        {/* <div
           className="vid-btn"
           ref={this.myElement}
           onClick={this.handleVidControl}
         >
           Hi
-        </div>
+        </div> */}
 
         <div className="bio-section">
           <span className="console">console</span>
@@ -102,6 +102,12 @@ export class About extends Component {
               id officia qui sit aliqua. Aute ullamco veniam laboris id
               incididunt dolore ullamco excepteur elit.
             </p>
+            <div className="arrow-div">
+              <img
+                src="https://s3.us-east-2.amazonaws.com/drip-project/admin/arrow-down-on-black-circular-background.png"
+                alt="scroll down"
+              />
+            </div>
           </div>
           <div className="skills-section">
             <span className="console">console</span>

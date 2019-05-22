@@ -35,7 +35,11 @@
   text-decoration: none;
 }
 
-.logo h1:hover,
+.logo-about h1:hover,
 .link:hover {
   color: rgb(144, 176, 97);
+}
+
+.logo-dashboard h1:hover {
+  color: purple;
 }
